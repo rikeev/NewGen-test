@@ -31,9 +31,12 @@ let filtered = filterRange(pr, 0, 200); // В аргумент можно под
 // После фильтрации мы получаем список массивов и отсекаем пустые. 
 
    if (filtered.length > 0){
+
    alert ("Appropriate course:" +" " + courses[i].name + "." + " " + "Price range:" + " " +courses[i].prices.join("-"))
+
    }; 
 };
+// Выводим по одному название курса + диапозон цен отфильтрованных вариантов.
 
 
 
